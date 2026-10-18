@@ -3,7 +3,7 @@
     "type": "october-plugin",
     "description": "Grid Cards: display the backend lists of October CMS as a grid of cards",
     "keywords": ["october", "octobercms", "backend", "list", "grid", "cards", "card view"],
-    "homepage": "https://github.com/Ladylain/Grid",
+    "homepage": "https://github.com/Ladylain/oc-grid-plugin",
     "license": "MIT",
     "authors": [
         {

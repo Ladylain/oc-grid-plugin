@@ -175,4 +175,4 @@ The grid keeps the table markup of the list widget and displays it with a CSS gr
 
 ## Support
 
-Report an issue or suggest a feature on [GitHub](https://github.com/Ladylain/Grid/issues).
+Report an issue or suggest a feature on [GitHub](https://github.com/Ladylain/oc-grid-plugin/issues).

@@ -19,7 +19,7 @@ class Plugin extends PluginBase
             'description' => __('Display the backend lists as a grid of cards'),
             'author' => 'LucasPalomba',
             'icon' => 'icon-th-large',
-            'homepage' => 'https://github.com/Ladylain/Grid',
+            'homepage' => 'https://github.com/Ladylain/oc-grid-plugin',
         ];
     }
 }

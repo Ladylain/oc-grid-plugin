@@ -7,7 +7,7 @@ Fields to fill in the plugin form of the October CMS Marketplace.
 | Name | Grid Cards |
 | Code | LucasPalomba.Grid |
 | Composer package | lucaspalomba/grid-plugin |
-| Repository | https://github.com/Ladylain/Grid |
+| Repository | https://github.com/Ladylain/oc-grid-plugin |
 | License | MIT (free) |
 | Requires | October CMS 4.4 or later, PHP 8.2 or later |
 | Category | Developer tools |

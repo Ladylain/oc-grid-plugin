@@ -1,6 +1,6 @@
 Grid Cards displays the backend lists of October CMS as a grid of cards instead of a table. It suits the records that are recognised at a glance: products with a photo, team members, articles, events, documents, packs or offers.
 
-![Products as cards](https://raw.githubusercontent.com/Ladylain/Grid/master/docs/screenshots/01-products-cards.jpg)
+![Products as cards](https://raw.githubusercontent.com/Ladylain/oc-grid-plugin/master/docs/screenshots/01-products-cards.jpg)
 
 ## A drop-in replacement for the ListController
 
