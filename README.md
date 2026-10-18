@@ -63,9 +63,9 @@ The full reference (card sections, field widths, grid options, layouts, reorderi
 
 | | |
 |---|---|
-| ![Products](docs/screenshots/01-products-cards.jpg) | ![Overlay layout](docs/screenshots/02-showcase-overlay-sortable.jpg) |
-| ![Team](docs/screenshots/04-team.jpg) | ![Events](docs/screenshots/05-events.jpg) |
-| ![Bulk selection](docs/screenshots/07-products-selection.jpg) | ![Dark mode](docs/screenshots/09-products-dark.jpg) |
+| ![Products](docs/screenshots/01-products-cards.jpg) | ![Overlay layout](docs/screenshots/02-overlay-sortable.jpg) |
+| ![Team](docs/screenshots/03-team.jpg) | ![Events](docs/screenshots/04-events.jpg) |
+| ![Dark mode](docs/screenshots/05-dark-mode.jpg) | ![Responsive](docs/screenshots/10-responsive.jpg) |
 
 ## License
 

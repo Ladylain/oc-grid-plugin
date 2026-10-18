@@ -13,7 +13,7 @@ Fields to fill in the plugin form of the October CMS Marketplace.
 | Category | Developer tools |
 | Icon | `logo.png` (512 × 512) |
 | Banner | `banner.png` (837 × 348), `banner@2x.png` (1674 × 696) |
-| Screenshots | `../screenshots/*.jpg`, in the order of their numbers |
+| Screenshots | `../screenshots/*.jpg` (1800 × 1350, ratio 1.33), in the order of their numbers: only the first 5 are displayed on the plugin page |
 
 ## Short description
 
@@ -25,18 +25,19 @@ backend, list, grid, cards, card view, gallery, ListController, list widget, reo
 
 ## Screenshot captions
 
+The first 5 screenshots are displayed on the plugin page.
+
 | File | Caption |
 |---|---|
 | 01-products-cards.jpg | Products as cards, with the filters, the search and the sort selector of the list |
-| 02-showcase-overlay-sortable.jpg | Overlay layout: the title over the image, cards reordered by drag and drop |
-| 03-articles.jpg | Articles with a status badge, an excerpt and statistics |
-| 04-team.jpg | Team members with avatars, email links and availability switches |
-| 05-events.jpg | Cards without image: a date tile partial, date and time columns |
-| 06-documents.jpg | Compact cards with file attachments |
-| 07-products-selection.jpg | Bulk selection: checked cards and the toolbar actions |
-| 08-articles-sort-selector.jpg | The sort selector replaces the column headers of the table |
-| 09-products-dark.jpg | Dark mode |
-| 10-events-dark.jpg | Dark mode |
-| 11-team-dark.jpg | Dark mode |
-| 12-products-mobile.jpg | Responsive grid on mobile |
-| 13-events-mobile.jpg | Responsive grid on mobile |
+| 02-overlay-sortable.jpg | Overlay layout: the title over the image, cards reordered by drag and drop |
+| 03-team.jpg | Team members with avatars, email links and availability switches |
+| 04-events.jpg | Cards without image: a date tile partial, date and time columns |
+| 05-dark-mode.jpg | Dark mode, with the colors of the backend theme |
+| 06-bulk-selection.jpg | Bulk selection: checked cards and the toolbar actions |
+| 07-articles.jpg | Articles with a status badge, an excerpt and statistics |
+| 08-documents.jpg | Compact cards with file attachments |
+| 09-sort-selector.jpg | The sort selector replaces the column headers of the table |
+| 10-responsive.jpg | Responsive grid on mobile |
+| 11-events-dark.jpg | Dark mode |
+| 12-team-dark.jpg | Dark mode |
