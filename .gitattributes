@@ -1,0 +1,3 @@
+# Keep the documentation images out of the composer package
+/docs export-ignore
+/.gitattributes export-ignore

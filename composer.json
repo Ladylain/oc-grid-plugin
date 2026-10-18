@@ -1,0 +1,22 @@
+{
+    "name": "lucaspalomba/grid-plugin",
+    "type": "october-plugin",
+    "description": "Grid Cards: display the backend lists of October CMS as a grid of cards",
+    "keywords": ["october", "octobercms", "backend", "list", "grid", "cards", "card view"],
+    "homepage": "https://github.com/Ladylain/Grid",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lucas Palomba",
+            "email": "contact@digitalsky.fr"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "composer/installers": "^1.0 || ^2.0",
+        "october/rain": "^4.4"
+    },
+    "extra": {
+        "installer-name": "grid"
+    }
+}

@@ -9,7 +9,7 @@
     if ($showCheckboxes) $classes[] = 'list-checkboxes';
 ?>
 <div
-    class="control-list <?= implode(' ', $classes) ?>"
+    class="control-list control-grid <?= implode(' ', $classes) ?>"
     data-control="liststructurewidget"
     data-reorder-handler="<?= $this->getEventHandler('onReorder') ?>"
     data-toggle-handler="<?= $this->getEventHandler('onToggleTreeNode') ?>"
@@ -22,7 +22,7 @@
     <?php if ($maxDepth !== null): ?>data-max-depth="<?= $maxDepth ?>"<?php endif ?>
 >
     <div class="list-content">
-        <table class="table data" <?= $useRowLink ? 'data-control="rowlink"' : '' ?>>
+        <table class="table data grid-cards grid-layout-<?= $cardLayout ?>" style="<?= $cardStyle ?>" <?= $useRowLink ? 'data-control="rowlink"' : '' ?>>
             <thead>
                 <?= $this->makePartial('list_head_row') ?>
             </thead>
@@ -31,7 +31,7 @@
                     <?= $this->makePartial('list_body_rows') ?>
                 <?php else: ?>
                     <tr class="no-data no-sort">
-                        <td colspan="<?= $columnTotal ?>" class="nolink">
+                        <td class="nolink">
                             <p class="no-data"><?= $noRecordsMessage ?></p>
                         </td>
                     </tr>
@@ -40,13 +40,11 @@
         </table>
         <?php if ($showPagination): ?>
             <div class="list-footer">
-                <div class="list-pagination">
-                    <?php if ($showPageNumbers): ?>
-                        <?= $this->makePartial('list_pagination') ?>
-                    <?php else: ?>
-                        <?= $this->makePartial('list_pagination_simple') ?>
-                    <?php endif ?>
-                </div>
+                <?php if ($showPageNumbers): ?>
+                    <?= $this->makePartial('list_pagination') ?>
+                <?php else: ?>
+                    <?= $this->makePartial('list_pagination_simple') ?>
+                <?php endif ?>
             </div>
         <?php endif ?>
 
