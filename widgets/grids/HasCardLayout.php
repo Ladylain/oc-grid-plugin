@@ -168,6 +168,47 @@ trait HasCardLayout
     }
 
     /**
+     * evalImageTypeValue resizes the media images to the size of the card, the list
+     * widget resizes them to 68 x 68 pixels by default.
+     */
+    protected function evalImageTypeValue($record, $column, $value)
+    {
+        $config = $column->config;
+        $isMedia = ($column->cardSection ?: 'body') === 'media';
+
+        if ($isMedia && !isset($config['width']) && !isset($config['height'])) {
+            [$ratioWidth, $ratioHeight] = $this->getCardMediaRatio();
+            $width = 960;
+
+            $column->config = array_merge($config, [
+                'width' => $width,
+                'height' => (int) round($width * $ratioHeight / $ratioWidth),
+                'options' => ($config['options'] ?? []) + ['mode' => 'crop'],
+            ]);
+        }
+
+        return parent::evalImageTypeValue($record, $column, $value);
+    }
+
+    /**
+     * getCardMediaRatio returns the width and height of the media aspect ratio.
+     */
+    protected function getCardMediaRatio(): array
+    {
+        $parts = array_map('floatval', explode('/', (string) $this->cardMediaRatio));
+
+        if (count($parts) === 2 && $parts[0] > 0 && $parts[1] > 0) {
+            return $parts;
+        }
+
+        if (count($parts) === 1 && $parts[0] > 0) {
+            return [$parts[0], 1];
+        }
+
+        return $this->cardLayout === 'overlay' ? [4, 3] : [16, 9];
+    }
+
+    /**
      * getCardSortableColumns returns the columns available in the sort selector.
      * @return array
      */

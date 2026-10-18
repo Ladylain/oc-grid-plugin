@@ -109,6 +109,10 @@ The Bootstrap `col-*` classes in `headCssClass` are also read, for example `head
 
 Without `cardSpan`, body fields take half of the card, long values (`summary`, `partial`, `image`, `file`) the full width, and the footer fields share the line.
 
+### Images
+
+The images of the `media` section are resized to 960 pixels wide and cropped to the proportions of the card (`cardMediaRatio`). Set the `width` and `height` options of the column to use another size.
+
 ### Labels
 
 Column labels are displayed above the values in the body section. `cardLabel: false` hides the label of a column, `cardLabel: true` displays it in another section. `cardLabels: false` in the configuration file hides all the body labels.
