@@ -12,7 +12,7 @@ Fields to fill in the plugin form of the October CMS Marketplace.
 | Requires | October CMS 4.4 or later, PHP 8.2 or later |
 | Category | Developer tools |
 | Icon | `logo.png` (512 × 512) |
-| Banner | `banner.png` (1600 × 800) |
+| Banner | `banner.png` (837 × 348), `banner@2x.png` (1674 × 696) |
 | Screenshots | `../screenshots/*.jpg`, in the order of their numbers |
 
 ## Short description
