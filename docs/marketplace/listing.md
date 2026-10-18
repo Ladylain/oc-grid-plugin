@@ -13,7 +13,7 @@ Fields to fill in the plugin form of the October CMS Marketplace.
 | Category | Developer tools |
 | Icon | `logo.png` (512 × 512) |
 | Banner | `banner.png` (837 × 348), `banner@2x.png` (1674 × 696) |
-| Screenshots | `../screenshots/*.jpg` (1800 × 1350, ratio 1.33), in the order of their numbers: only the first 5 are displayed on the plugin page |
+| Screenshots | `../screenshots/*.jpg` (1200 × 900, ratio 1.33, width between 838 and 1200 px), in the order of their numbers: only the first 5 are displayed on the plugin page |
 
 ## Short description
 
